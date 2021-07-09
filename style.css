@@ -212,7 +212,7 @@ h3{
     margin: 3px 3px;
 }
 
-@media only screen and (max-width:1350px){
+/* @media only screen and (max-width:1350px){
     .nav-list{
         flex-direction: column;
      }
@@ -233,7 +233,7 @@ h3{
     }
     .firsthalf{
         width: 80%;
-        /* display: flex; */
+        display: flex;
         flex-direction: column;
         justify-content: center;
         
@@ -272,4 +272,4 @@ h3{
     }
     
 }
-
+ */
