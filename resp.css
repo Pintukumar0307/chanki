@@ -1,4 +1,4 @@
-@media only screen and (max-width:1350px){
+@media only screen and (max-width:600px){
     .nav-list{
         flex-direction: column;
      }
@@ -7,32 +7,25 @@
         flex-direction: column;
     }
     .box{
-        display: flex;
-        align-items: center;
-        justify-content: center;
         color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         max-width: 100%;
-        margin: auto;
         height:80% ;
+       -moz-text-size-adjust: auto;
     
     }
-    .firsthalf{
-        width: 80%;
-        /* display: flex; */
-        flex-direction: column;
-        justify-content: center;
-        
-    }
+     
     .textbig{
         font-size: 30px;
         text-transform: capitalize;
-        margin-left: 50px;
+       
+        
     }
     .textsmall{
         font-size: 10px;
         text-transform: capitalize;
-        margin-left: 85px;
+        
+        
     }
     .btn{
         background-color: red;
@@ -40,11 +33,17 @@
         font-size: 15px;
         padding-left: 15px;
         padding-right: 15px;
-        margin-left: 95px;
+        
+        
        
+       
+    } 
+    .image{
+        
     }
     .image img{
         width: 200px;
+       
     }
    
     .burger{
@@ -59,3 +58,7 @@
     
 }
 
+@media only screen and (max-width:400px){
+
+
+}
